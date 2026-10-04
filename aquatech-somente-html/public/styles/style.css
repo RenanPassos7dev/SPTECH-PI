@@ -1,0 +1,256 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #222;
+}
+
+
+/* CONTAINER */
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* HEADER */
+
+.header{
+    background-color: black;
+    border-bottom: 3px solid #087dc1;
+    color: white;
+}
+
+.header .container{
+    min-height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo{
+    color: #087dc1;
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: orange;
+}
+
+/* MENU */
+
+ul{
+    list-style: none;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: orange;
+}
+.header li{
+    display: inline-block;
+}
+
+.header a {
+    color: #f9762b;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.header a:hover {
+    color: #35b6c8;
+}
+
+/* BANNER */
+
+.banner{
+    background-color: black;
+    min-height: 390px;
+    background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png");
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.banner .container{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 20%;
+}
+
+.banner span{
+    font-weight: bold;
+}
+
+/* CONTEUDO */
+
+.social{
+    background-color: #c8c6c6;
+    padding: 150px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.box{
+    flex: 1;
+    text-align: center;
+    max-width: 250px;
+}
+
+.box img{
+    width: 90px;
+    height: 90px;
+}
+
+.box h4{
+    color: red;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: aqua;
+    min-height: 200px;
+}
+
+.footer .container{
+    display: flex;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+}
+
+.footer h4{
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+.footer .version {
+    margin-top: 30px;
+    font-size: 12px;
+    opacity: 0.9;
+    font-weight: bold;
+
+}
+
+/* SIMULADOR */
+
+.simulador{
+    background-color: #000;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.simulador h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.simulador p{
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* LOGIN */
+
+.login {
+    background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png");
+    width: 100%;
+    min-height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .container{
+    width: 600px;
+    min-height: 300px;
+    padding: 30px 40px;
+    background-color: #c3c3c3;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.login h2{
+    display: flex;
+    justify-content: center;
+    color: #e840b5;
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+
+
+
+.campo span{
+    color: #e840b5;
+    font-weight: bold;
+    padding-left: 0px;
+    margin-bottom: 3px;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.campo input{
+    display: block;
+    text-align: center;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    
+}
+
+.campo{
+    margin-bottom: 10px;
+}
+
+.botao {
+    display: flex;
+    margin: 15px auto 0;
+    color: #fff;
+    background-color: #d0145c;
+    width: 100px;
+    justify-content: center;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
